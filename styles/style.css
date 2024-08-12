@@ -9,6 +9,7 @@
 /* Shared Style */
 body {
     background: #111111;
+    margin: 100px;
 }
 
 .orange{
@@ -20,7 +21,15 @@ body {
 }
 
 
-
+p{
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+}
 
 
 
@@ -41,7 +50,7 @@ body {
     list-style: none;
     color: rgb(255, 255, 255);
     /* padding: 10px; */
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
     border-radius: 39px;
 }
 
@@ -64,3 +73,19 @@ body {
 
 
 /* hero section */
+
+.primary{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+ color: white;
+ font-size: 35px;
+}
+
+.cursive{
+ font-family: 'Miami', sans-serif;
+ font-size: 7rem;
+ line-height: 1;
+}
