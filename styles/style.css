@@ -12,13 +12,6 @@ body {
     margin: 100px;
 }
 
-.orange{
-   color: rgba(230, 83, 60);
-}
-
-.orange-bg{
-    background-color: rgba(230, 83, 60);
-}
 
 
 p{
@@ -34,6 +27,13 @@ text-align: left;
 
 
 /* nav section */
+
+.orange{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 50px;
+}
 
 .nav-section{
     margin: 50px;
@@ -82,10 +82,25 @@ text-align: left;
 .text{
  color: white;
  font-size: 35px;
+ margin-left: 50px;
 }
 
-.cursive{
- font-family: 'Miami', sans-serif;
- font-size: 7rem;
- line-height: 1;
+
+.orange-button{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: white;
+    font-size: large;
+}
+
+.regular-button{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    color: white;
+    background: black;
+    font-size: large;
+    border: 1px solid rgb(255, 255, 255);
 }
