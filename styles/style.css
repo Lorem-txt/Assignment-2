@@ -12,6 +12,9 @@ body {
     margin: 100px;
 }
 
+h1, h2, h3{
+    color: white;
+}
 
 
 p{
@@ -146,4 +149,26 @@ text-align: left;
     position: absolute;
     bottom: 242px;
     right: 27px;
+}
+
+
+/* habit section */
+
+.text-section{
+    text-align: center;
+    color: white;
+}
+
+.text-section>p{
+    text-align: center;
+}
+
+.photo-gallery{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.habit-photo{
+    border-radius: 50%;
 }
