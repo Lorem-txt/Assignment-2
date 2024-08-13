@@ -104,3 +104,46 @@ text-align: left;
     font-size: large;
     border: 1px solid rgb(255, 255, 255);
 }
+
+
+
+.leftbox{
+    width: 206px;
+    height: 96px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    position: absolute;
+    right: 343px;
+    bottom: 84px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding-left: 20px;
+}
+
+.ball{
+    height: 30px;
+    width: 30px;
+    /* color: rgb(230, 83, 60); */
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+.rightbox{
+    width: 206px;
+    height: 96px;
+    color: white;
+    /* display: flex; */
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    position: absolute;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding-left: 20px;
+    position: absolute;
+    bottom: 242px;
+    right: 27px;
+}
