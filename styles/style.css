@@ -172,3 +172,20 @@ text-align: left;
 .habit-photo{
     border-radius: 50%;
 }
+
+
+/* run section */
+
+.run{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 50px;
+}
+.run-img{
+    width: 366px;
+    height: 312px;
+    border-radius: 12px;
+}
